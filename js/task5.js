@@ -11,6 +11,6 @@ minValue(10,5,11);
 
 function min(a, b, c) { 
   let minNumber = Math.min(a, b, c);
-  console.log(minNumber);
+  return(minNumber);
 }
-min(10,5,11);
+ console.log(min(10,5,11));

@@ -6,6 +6,5 @@ function printStairs(n){
 		console.log(newStair);
 		i++;
 	} while (i<n)
-	return newStair;
 }
 printStairs(4);

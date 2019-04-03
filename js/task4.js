@@ -5,12 +5,10 @@ function sumRange(start, end) {
         start++;  
     }
     if (start=end) {
-        console.log(sum)
+        return(sum)
     }
-    return sum;
-    
  }
 
- sumRange(2, 4) // 9  
- sumRange(-1, 3) // 5 
- sumRange(4, 8) // 30
+ console.log(sumRange(2, 4)) // 9  
+ console.log(sumRange(-1, 3)) // 5 
+ console.log(sumRange(4, 8)) // 30

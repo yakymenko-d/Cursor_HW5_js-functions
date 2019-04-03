@@ -4,11 +4,11 @@ function cursorCheck(str) {
 	    let low_case2 = res.includes(`cursor`);
 	    let low_case3 = res.includes(`ironman`);
 	if (low_case1 == true || low_case2 == true || low_case3 == true) {
-	    console.log(true);
+	    return(true);
 	} else {
-	    console.log(false);
+	    return(false);
 	}
 }
-cursorCheck('Hello I am OstaP') // true
-cursorCheck('Superman is here') // false
-cursorCheck('What about iRonMan?') //true
+ console.log(cursorCheck('Hello I am OstaP')) // true
+ console.log(cursorCheck('Superman is here'))// false
+ console.log(cursorCheck('What about iRonMan?')) //true
